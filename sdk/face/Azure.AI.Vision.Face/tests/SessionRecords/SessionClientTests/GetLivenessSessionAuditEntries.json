@@ -1,0 +1,63 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://apim-func-test-uscx-s0.cognitiveservices.azure.com/face/v1.1-preview.1/detectLiveness/singleModal/sessions/461269e4-acff-4e3d-8f24-ffaff65d838c/audit",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Ocp-Apim-Subscription-Key": "Sanitized",
+        "traceparent": "00-000c7e190ddc0ec62165dd89111b3816-3d79efdaf7107c92-00",
+        "User-Agent": "azsdk-net-AI.Vision.Face/1.0.0-alpha.20231116.1 (.NET 7.0.14; Microsoft Windows 10.0.22621)",
+        "x-ms-client-request-id": "0afecd90bcfd36e4159351c9b6dfb786",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "apim-request-id": "35527bd8-d963-4f90-b4cf-5986aad114ed",
+        "Content-Length": "2377",
+        "Content-Type": "application/json; charset=utf-8",
+        "CSP-Billing-Usage": "CognitiveServices.Face.Transaction=1",
+        "Date": "Thu, 16 Nov 2023 06:45:34 GMT",
+        "Server": "istio-envoy",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "x-envoy-upstream-service-time": "20",
+        "x-ms-region": "Central US EUAP"
+      },
+      "ResponseBody": "[{\u0022id\u0022:3,\u0022sessionId\u0022:\u0022461269e4-acff-4e3d-8f24-ffaff65d838c\u0022,\u0022requestId\u0022:\u0022b26c9a7d-1e12-4622-8749-a4d6f19f8327\u0022,\u0022clientRequestId\u0022:\u0022a1574a78-8fd3-4126-8aff-f14b49fed0f0\u0022,\u0022receivedDateTime\u0022:\u00222023-11-16T04:04:27.5970822\u002B00:00\u0022,\u0022request\u0022:{\u0022url\u0022:\u0022/face/v1.1-preview.1/detectliveness/singlemodal\u0022,\u0022method\u0022:\u0022POST\u0022,\u0022contentLength\u0022:156102,\u0022contentType\u0022:\u0022multipart/form-data; boundary=\\\u00228523c9a4-2b9b-40ca-90ab-64aee15bf505\\\u0022\u0022},\u0022response\u0022:{\u0022body\u0022:{\u0022livenessDecision\u0022:\u0022realface\u0022,\u0022target\u0022:{\u0022faceRectangle\u0022:{\u0022top\u0022:179,\u0022left\u0022:138,\u0022width\u0022:379,\u0022height\u0022:295},\u0022fileName\u0022:\u0022verifiedid-synthetic.webp\u0022,\u0022timeOffsetWithinFile\u0022:0,\u0022imageType\u0022:\u0022Color\u0022},\u0022modelVersionUsed\u0022:\u00222022-10-15-preview.04\u0022},\u0022statusCode\u0022:200,\u0022latencyInMilliseconds\u0022:768},\u0022digest\u0022:\u0022EBA865EADA8797E7F432F820A46B46B554FE58488F7382B64D134F701367A3F6\u0022},{\u0022id\u0022:2,\u0022sessionId\u0022:\u0022461269e4-acff-4e3d-8f24-ffaff65d838c\u0022,\u0022requestId\u0022:\u0022a9d2d827-b144-4221-a4b9-ca81e18b3dcb\u0022,\u0022clientRequestId\u0022:\u00225274f268-ef49-40c0-923c-140ce685caa3\u0022,\u0022receivedDateTime\u0022:\u00222023-11-16T04:04:20.9058512\u002B00:00\u0022,\u0022request\u0022:{\u0022url\u0022:\u0022/face/v1.1-preview.1/detectliveness/singlemodal\u0022,\u0022method\u0022:\u0022POST\u0022,\u0022contentLength\u0022:156102,\u0022contentType\u0022:\u0022multipart/form-data; boundary=\\\u002233bcb47e-afe2-4341-af17-e1033390ade2\\\u0022\u0022},\u0022response\u0022:{\u0022body\u0022:{\u0022livenessDecision\u0022:\u0022realface\u0022,\u0022target\u0022:{\u0022faceRectangle\u0022:{\u0022top\u0022:179,\u0022left\u0022:138,\u0022width\u0022:379,\u0022height\u0022:295},\u0022fileName\u0022:\u0022verifiedid-synthetic.webp\u0022,\u0022timeOffsetWithinFile\u0022:0,\u0022imageType\u0022:\u0022Color\u0022},\u0022modelVersionUsed\u0022:\u00222022-10-15-preview.04\u0022},\u0022statusCode\u0022:200,\u0022latencyInMilliseconds\u0022:959},\u0022digest\u0022:\u002221703A7E48CB3C59D62F6AFA41BBBBC6E9AB16B107378B92B634B0E9EA2D9BBB\u0022},{\u0022id\u0022:1,\u0022sessionId\u0022:\u0022461269e4-acff-4e3d-8f24-ffaff65d838c\u0022,\u0022requestId\u0022:\u0022bdfea236-2db2-43db-b959-10474540a610\u0022,\u0022clientRequestId\u0022:\u00224caa329d-c093-49fe-a3b2-7e4a7e1aa82e\u0022,\u0022receivedDateTime\u0022:\u00222023-11-16T04:04:14.0708298\u002B00:00\u0022,\u0022request\u0022:{\u0022url\u0022:\u0022/face/v1.1-preview.1/detectliveness/singlemodal\u0022,\u0022method\u0022:\u0022POST\u0022,\u0022contentLength\u0022:156102,\u0022contentType\u0022:\u0022multipart/form-data; boundary=\\\u0022dde213cb-e655-4af7-be5b-9a87250daed1\\\u0022\u0022},\u0022response\u0022:{\u0022body\u0022:{\u0022livenessDecision\u0022:\u0022realface\u0022,\u0022target\u0022:{\u0022faceRectangle\u0022:{\u0022top\u0022:179,\u0022left\u0022:138,\u0022width\u0022:379,\u0022height\u0022:295},\u0022fileName\u0022:\u0022verifiedid-synthetic.webp\u0022,\u0022timeOffsetWithinFile\u0022:0,\u0022imageType\u0022:\u0022Color\u0022},\u0022modelVersionUsed\u0022:\u00222022-10-15-preview.04\u0022},\u0022statusCode\u0022:200,\u0022latencyInMilliseconds\u0022:854},\u0022digest\u0022:\u002276A8B18D0BC439CA7AB4C4B0D738AB8C1C1574883ACA5527206154C23769DF71\u0022}]"
+    },
+    {
+      "RequestUri": "https://apim-func-test-uscx-s0.cognitiveservices.azure.com/face/v1.1-preview.1/detectLiveness/singleModal/sessions/461269e4-acff-4e3d-8f24-ffaff65d838c/audit?start=3\u0026top=1",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Ocp-Apim-Subscription-Key": "Sanitized",
+        "traceparent": "00-b398672d19fd8a67fefb5ad3996518fb-863310b610521b14-00",
+        "User-Agent": "azsdk-net-AI.Vision.Face/1.0.0-alpha.20231116.1 (.NET 7.0.14; Microsoft Windows 10.0.22621)",
+        "x-ms-client-request-id": "40bf0a517ba95a4eefea001f1d9e217d",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "apim-request-id": "e040058b-a454-484b-a440-85ad19755108",
+        "Content-Length": "793",
+        "Content-Type": "application/json; charset=utf-8",
+        "CSP-Billing-Usage": "CognitiveServices.Face.Transaction=1",
+        "Date": "Thu, 16 Nov 2023 06:45:34 GMT",
+        "Server": "istio-envoy",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "x-envoy-upstream-service-time": "13",
+        "x-ms-region": "Central US EUAP"
+      },
+      "ResponseBody": "[{\u0022id\u0022:2,\u0022sessionId\u0022:\u0022461269e4-acff-4e3d-8f24-ffaff65d838c\u0022,\u0022requestId\u0022:\u0022a9d2d827-b144-4221-a4b9-ca81e18b3dcb\u0022,\u0022clientRequestId\u0022:\u00225274f268-ef49-40c0-923c-140ce685caa3\u0022,\u0022receivedDateTime\u0022:\u00222023-11-16T04:04:20.9058512\u002B00:00\u0022,\u0022request\u0022:{\u0022url\u0022:\u0022/face/v1.1-preview.1/detectliveness/singlemodal\u0022,\u0022method\u0022:\u0022POST\u0022,\u0022contentLength\u0022:156102,\u0022contentType\u0022:\u0022multipart/form-data; boundary=\\\u002233bcb47e-afe2-4341-af17-e1033390ade2\\\u0022\u0022},\u0022response\u0022:{\u0022body\u0022:{\u0022livenessDecision\u0022:\u0022realface\u0022,\u0022target\u0022:{\u0022faceRectangle\u0022:{\u0022top\u0022:179,\u0022left\u0022:138,\u0022width\u0022:379,\u0022height\u0022:295},\u0022fileName\u0022:\u0022verifiedid-synthetic.webp\u0022,\u0022timeOffsetWithinFile\u0022:0,\u0022imageType\u0022:\u0022Color\u0022},\u0022modelVersionUsed\u0022:\u00222022-10-15-preview.04\u0022},\u0022statusCode\u0022:200,\u0022latencyInMilliseconds\u0022:959},\u0022digest\u0022:\u002221703A7E48CB3C59D62F6AFA41BBBBC6E9AB16B107378B92B634B0E9EA2D9BBB\u0022}]"
+    }
+  ],
+  "Variables": {
+    "FACE_ENDPOINT": "https://apim-func-test-uscx-s0.cognitiveservices.azure.com/",
+    "FACE_SUBSCRIPTION_KEY": "Sanitized",
+    "RandomSeed": "849744324"
+  }
+}

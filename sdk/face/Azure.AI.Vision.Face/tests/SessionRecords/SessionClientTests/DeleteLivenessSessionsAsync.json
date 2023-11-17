@@ -1,0 +1,36 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://apim-func-test-uscx-s0.cognitiveservices.azure.com/face/v1.1-preview.1/detectLiveness/singleModal/sessions",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Ocp-Apim-Subscription-Key": "Sanitized",
+        "traceparent": "00-9c4c7bf764910a8fe4d2559787a98706-c740406c70f6dbfe-00",
+        "User-Agent": "azsdk-net-AI.Vision.Face/1.0.0-alpha.20231117.1 (.NET 7.0.14; Microsoft Windows 10.0.22621)",
+        "x-ms-client-request-id": "c6a3f7a3dce55214f710e642cb7eb800",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "apim-request-id": "19e038c8-e3a4-49c3-bcdf-d80c831ebdb6",
+        "Content-Length": "2",
+        "Content-Type": "application/json; charset=utf-8",
+        "CSP-Billing-Usage": "CognitiveServices.Face.Transaction=1",
+        "Date": "Fri, 17 Nov 2023 06:24:24 GMT",
+        "Server": "istio-envoy",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "x-envoy-upstream-service-time": "8",
+        "x-ms-region": "Central US EUAP"
+      },
+      "ResponseBody": "[]"
+    }
+  ],
+  "Variables": {
+    "FACE_ENDPOINT": "https://apim-func-test-uscx-s0.cognitiveservices.azure.com/",
+    "FACE_SUBSCRIPTION_KEY": "Sanitized",
+    "RandomSeed": "1453704243"
+  }
+}

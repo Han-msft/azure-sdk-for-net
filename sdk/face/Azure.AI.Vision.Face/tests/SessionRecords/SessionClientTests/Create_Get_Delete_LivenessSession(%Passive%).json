@@ -1,0 +1,104 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://apim-func-test-uscx-s0.cognitiveservices.azure.com/face/v1.1-preview.1/detectLiveness/singleModal/sessions",
+      "RequestMethod": "POST",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Content-Length": "73",
+        "Content-Type": "application/json",
+        "Ocp-Apim-Subscription-Key": "Sanitized",
+        "traceparent": "00-0c5d28c79802f9c92916914f62ef9746-0e029fb881ccb169-00",
+        "User-Agent": "azsdk-net-AI.Vision.Face/1.0.0-alpha.20231115.1 (.NET 7.0.13; Microsoft Windows 10.0.22621)",
+        "x-ms-client-request-id": "51a0e46540744d1bdf72f58aa6c03c97",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": {
+        "deviceCorrelationId": "dummy-test-id",
+        "livenessOperationMode": "Passive"
+      },
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "apim-request-id": "5b763246-eaf0-4bfc-9be5-c72f9a013b10",
+        "Content-Length": "1392",
+        "Content-Type": "application/json; charset=utf-8",
+        "CSP-Billing-Usage": "CognitiveServices.Face.Transaction=1",
+        "Date": "Wed, 15 Nov 2023 07:47:03 GMT",
+        "Server": "istio-envoy",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "x-envoy-upstream-service-time": "75",
+        "x-ms-region": "Central US EUAP"
+      },
+      "ResponseBody": {
+        "sessionId": "87c43e98-605a-483b-9b1e-6ec24d6df52b",
+        "authToken": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImtleTEiLCJ0eXAiOiJKV1QifQ.eyJyZWdpb24iOiJjZW50cmFsdXNldWFwIiwic3Vic2NyaXB0aW9uLWlkIjoiMzk3NzIxZDJlMGY3NDc2NGJjYzNkNGEwZmIzMGQ2ZmEiLCJwcm9kdWN0LWlkIjoiRmFjZS5TMCIsImFsbG93ZWQtcGF0aHMiOiJbe1wicGF0aFwiOlwiZmFjZS92MS4xLXByZXZpZXcuMS9zZXNzaW9uL3N0YXJ0XCIsXCJtZXRob2RcIjpcIlBPU1RcIixcInF1b3RhXCI6MSxcImNhbGxSYXRlUmVuZXdhbFBlcmlvZFwiOjYwLFwiY2FsbFJhdGVMaW1pdFwiOjF9LHtcInBhdGhcIjpcImZhY2UvdjEuMS1wcmV2aWV3LjEvZGV0ZWN0TGl2ZW5lc3Mvc2luZ2xlTW9kYWxcIixcIm1ldGhvZFwiOlwicG9zdFwiLFwicXVvdGFcIjozLFwiY2FsbFJhdGVSZW5ld2FsUGVyaW9kXCI6NSxcImNhbGxSYXRlTGltaXRcIjoxfV0iLCJhenVyZS1yZXNvdXJjZS1pZCI6Ii9zdWJzY3JpcHRpb25zLzQ5MjUxYmUwLTFhY2ItNDZmMS1iOWVhLTYyMjE0MTJmNmU5YS9yZXNvdXJjZUdyb3Vwcy9mYWNldjEtazhzLWRldi9wcm92aWRlcnMvTWljcm9zb2Z0LkNvZ25pdGl2ZVNlcnZpY2VzL2FjY291bnRzL2FwaW0tZnVuYy10ZXN0LXVzY3gtczAiLCJzaWQiOiI4N2M0M2U5OC02MDVhLTQ4M2ItOWIxZS02ZWMyNGQ2ZGY1MmIiLCJuYmYiOiIxNzAwMDM0NDIzIiwiZmFjZSI6IntcImVuZHBvaW50XCI6XCJodHRwczovL2FwaW0tZnVuYy10ZXN0LXVzY3gtczAuY29nbml0aXZlc2VydmljZXMuYXp1cmUuY29tXCIsXCJzZXNzaW9uVHlwZVwiOlwiTGl2ZW5lc3NcIixcImNsaWVudENsYWltc1wiOntcImxpdmVuZXNzT3BlcmF0aW9uTW9kZVwiOlwiUGFzc2l2ZVwifX0iLCJhdWQiOiJ1cm46bXMuZmFjZVNlc3Npb25Ub2tlbiIsImV4cCI6MTcwMDAzNTAyMywiaXNzIjoidXJuOm1zLmNvZ25pdGl2ZXNlcnZpY2VzIn0.HBbCLycHphgm3YkBL4KLi2WuYYjBWa4ZxgpGxxHba-YbIP0Y_5BQZ4b298Kt-WAZnbFG-7Mzs6s1Y8h7lMyw0g"
+      }
+    },
+    {
+      "RequestUri": "https://apim-func-test-uscx-s0.cognitiveservices.azure.com/face/v1.1-preview.1/detectLiveness/singleModal/sessions/87c43e98-605a-483b-9b1e-6ec24d6df52b",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Ocp-Apim-Subscription-Key": "Sanitized",
+        "traceparent": "00-da6d6f0df6b8a63a82d4c4cfb41f358c-c241dc82e964ac86-00",
+        "User-Agent": "azsdk-net-AI.Vision.Face/1.0.0-alpha.20231115.1 (.NET 7.0.13; Microsoft Windows 10.0.22621)",
+        "x-ms-client-request-id": "704c41384ad415e91a2e8826c170e30c",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "apim-request-id": "3dfe1873-71ff-4195-9182-4db718ca1ff6",
+        "Content-Length": "217",
+        "Content-Type": "application/json; charset=utf-8",
+        "CSP-Billing-Usage": "CognitiveServices.Face.Transaction=1",
+        "Date": "Wed, 15 Nov 2023 07:47:03 GMT",
+        "Server": "istio-envoy",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "x-envoy-upstream-service-time": "15",
+        "x-ms-region": "Central US EUAP"
+      },
+      "ResponseBody": {
+        "status": "NotStarted",
+        "id": "87c43e98-605a-483b-9b1e-6ec24d6df52b",
+        "createdDateTime": "2023-11-15T07:47:03.9622024\u002B00:00",
+        "authTokenTimeToLiveInSeconds": 600,
+        "deviceCorrelationId": "dummy-test-id",
+        "sessionExpired": false
+      }
+    },
+    {
+      "RequestUri": "https://apim-func-test-uscx-s0.cognitiveservices.azure.com/face/v1.1-preview.1/detectLiveness/singleModal/sessions/87c43e98-605a-483b-9b1e-6ec24d6df52b",
+      "RequestMethod": "DELETE",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Ocp-Apim-Subscription-Key": "Sanitized",
+        "traceparent": "00-6377ab178391ecfba4d6a2efdceb5d8c-1acb18e00abe04b0-00",
+        "User-Agent": "azsdk-net-AI.Vision.Face/1.0.0-alpha.20231115.1 (.NET 7.0.13; Microsoft Windows 10.0.22621)",
+        "x-ms-client-request-id": "9478b630fece0efebb159043d82b1e47",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "apim-request-id": "f26f9958-e875-4102-9e83-ba6433381442",
+        "Content-Length": "0",
+        "CSP-Billing-Usage": "CognitiveServices.Face.Transaction=1",
+        "Date": "Wed, 15 Nov 2023 07:47:03 GMT",
+        "Server": "istio-envoy",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "x-envoy-upstream-service-time": "11",
+        "x-ms-region": "Central US EUAP"
+      },
+      "ResponseBody": null
+    }
+  ],
+  "Variables": {
+    "FACE_ENDPOINT": "https://apim-func-test-uscx-s0.cognitiveservices.azure.com/",
+    "FACE_SUBSCRIPTION_KEY": "Sanitized",
+    "RandomSeed": "68804185"
+  }
+}

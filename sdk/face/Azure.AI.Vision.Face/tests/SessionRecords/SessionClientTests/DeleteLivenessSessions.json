@@ -1,0 +1,114 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://apim-func-test-uscx-s0.cognitiveservices.azure.com/face/v1.1-preview.1/detectLiveness/singleModal/sessions",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Ocp-Apim-Subscription-Key": "Sanitized",
+        "traceparent": "00-a9280330c17a747e6863a01ba3e98b12-69375cbd6bfb6b70-00",
+        "User-Agent": "azsdk-net-AI.Vision.Face/1.0.0-alpha.20231117.1 (.NET 7.0.14; Microsoft Windows 10.0.22621)",
+        "x-ms-client-request-id": "882dd3b4ca037d9e370e2b6c606c4423",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "apim-request-id": "e1f9d593-d571-4007-b397-c3bf16faff3f",
+        "Content-Length": "654",
+        "Content-Type": "application/json; charset=utf-8",
+        "CSP-Billing-Usage": "CognitiveServices.Face.Transaction=1",
+        "Date": "Fri, 17 Nov 2023 06:24:23 GMT",
+        "Server": "istio-envoy",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "x-envoy-upstream-service-time": "8",
+        "x-ms-region": "Central US EUAP"
+      },
+      "ResponseBody": "[{\u0022id\u0022:\u002243ca5486-f9f5-4a24-92d4-23545c4c70f8\u0022,\u0022createdDateTime\u0022:\u00222023-11-16T13:02:32.504035\u002B00:00\u0022,\u0022authTokenTimeToLiveInSeconds\u0022:600,\u0022deviceCorrelationId\u0022:\u00226e803c99-7a10-416c-8cb3-ef3b924563eb\u0022,\u0022sessionExpired\u0022:true},{\u0022id\u0022:\u002293d86e51-b1f9-4f17-b25f-967803901eeb\u0022,\u0022createdDateTime\u0022:\u00222023-11-16T13:02:33.1568196\u002B00:00\u0022,\u0022authTokenTimeToLiveInSeconds\u0022:600,\u0022deviceCorrelationId\u0022:\u00226eb2023c-3932-4cea-bc6f-cdf90c9cc626\u0022,\u0022sessionExpired\u0022:true},{\u0022id\u0022:\u00229fc2e38a-ebfd-4cc1-b67e-edb32cb2c6b4\u0022,\u0022createdDateTime\u0022:\u00222023-11-16T13:02:33.6327049\u002B00:00\u0022,\u0022authTokenTimeToLiveInSeconds\u0022:600,\u0022deviceCorrelationId\u0022:\u0022de8d30c5-a9d8-4fc8-8634-7ea713030ed1\u0022,\u0022sessionExpired\u0022:true}]"
+    },
+    {
+      "RequestUri": "https://apim-func-test-uscx-s0.cognitiveservices.azure.com/face/v1.1-preview.1/detectLiveness/singleModal/sessions/43ca5486-f9f5-4a24-92d4-23545c4c70f8",
+      "RequestMethod": "DELETE",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Ocp-Apim-Subscription-Key": "Sanitized",
+        "traceparent": "00-b095a8c38699862f70179d202df76c13-4ca90817ef06ea9f-00",
+        "User-Agent": "azsdk-net-AI.Vision.Face/1.0.0-alpha.20231117.1 (.NET 7.0.14; Microsoft Windows 10.0.22621)",
+        "x-ms-client-request-id": "6afc63dec14a8087756f677128d8ff98",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "apim-request-id": "d249150d-d0b0-42b8-8a69-9da77aa2da3e",
+        "Content-Length": "0",
+        "CSP-Billing-Usage": "CognitiveServices.Face.Transaction=1",
+        "Date": "Fri, 17 Nov 2023 06:24:23 GMT",
+        "Server": "istio-envoy",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "x-envoy-upstream-service-time": "11",
+        "x-ms-region": "Central US EUAP"
+      },
+      "ResponseBody": null
+    },
+    {
+      "RequestUri": "https://apim-func-test-uscx-s0.cognitiveservices.azure.com/face/v1.1-preview.1/detectLiveness/singleModal/sessions/93d86e51-b1f9-4f17-b25f-967803901eeb",
+      "RequestMethod": "DELETE",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Ocp-Apim-Subscription-Key": "Sanitized",
+        "traceparent": "00-0105088b2770e100074f4eefe802d932-d6cdf1fb1468610f-00",
+        "User-Agent": "azsdk-net-AI.Vision.Face/1.0.0-alpha.20231117.1 (.NET 7.0.14; Microsoft Windows 10.0.22621)",
+        "x-ms-client-request-id": "0464d6e4ed36cd82e7137534094ab6af",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "apim-request-id": "690a4090-71f9-4428-923c-5ebd1ebb221e",
+        "Content-Length": "0",
+        "CSP-Billing-Usage": "CognitiveServices.Face.Transaction=1",
+        "Date": "Fri, 17 Nov 2023 06:24:24 GMT",
+        "Server": "istio-envoy",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "x-envoy-upstream-service-time": "20",
+        "x-ms-region": "Central US EUAP"
+      },
+      "ResponseBody": null
+    },
+    {
+      "RequestUri": "https://apim-func-test-uscx-s0.cognitiveservices.azure.com/face/v1.1-preview.1/detectLiveness/singleModal/sessions/9fc2e38a-ebfd-4cc1-b67e-edb32cb2c6b4",
+      "RequestMethod": "DELETE",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Ocp-Apim-Subscription-Key": "Sanitized",
+        "traceparent": "00-1bb5ffb83da8b619c3171f283066a0b2-4ba10502e591bbd3-00",
+        "User-Agent": "azsdk-net-AI.Vision.Face/1.0.0-alpha.20231117.1 (.NET 7.0.14; Microsoft Windows 10.0.22621)",
+        "x-ms-client-request-id": "15e767f6cdd3f22e4cad1393632d545f",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "apim-request-id": "ce4fb4c6-f52f-4c67-a903-53cecca84e4f",
+        "Content-Length": "0",
+        "CSP-Billing-Usage": "CognitiveServices.Face.Transaction=1",
+        "Date": "Fri, 17 Nov 2023 06:24:23 GMT",
+        "Server": "istio-envoy",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "x-envoy-upstream-service-time": "20",
+        "x-ms-region": "Central US EUAP"
+      },
+      "ResponseBody": null
+    }
+  ],
+  "Variables": {
+    "FACE_ENDPOINT": "https://apim-func-test-uscx-s0.cognitiveservices.azure.com/",
+    "FACE_SUBSCRIPTION_KEY": "Sanitized",
+    "RandomSeed": "86508259"
+  }
+}
